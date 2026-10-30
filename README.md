@@ -1,28 +1,34 @@
-# Mental Health AI Chatbot
+# 🧠 Mental Health AI Chatbot
 
-## Project Overview
-An AI-powered conversational chatbot developed using Python and Natural Language Processing (NLP).
+A supportive, empathetic AI-powered chatbot built with Python, Streamlit, Hugging Face Transformers, and TextBlob. This application offers general emotional support, conversational guidance, sentiment analysis, and emotion detection in a user-friendly interface.
 
-## Features
-- Text-based chatbot interaction
-- Sentiment analysis
-- Emotion detection
-- User-friendly interface
+---
 
-## Technologies Used
-- Python
-- NLP
-- Streamlit
-- TextBlob
-- Hugging Face Transformers
+## ✨ Features
 
-## How to Run
-1. Clone the repository.
-2. Install the required dependencies.
-3. Run the Streamlit application.
+- **Interactive UI:** Clean and responsive chat interface powered by Streamlit.
+- **Sentiment Analysis:** Analyzes text polarity (Positive, Negative, Neutral) using TextBlob.
+- **Emotion Detection:** Detects nuanced emotions (Joy, Sadness, Anger, Fear, Surprise, Neutral) using the `j-hartmann/emotion-english-distilroberta-base` Hugging Face model.
+- **Context-Aware Responses:** Matches predefined conversational intents (`intents.json`) for empathetic guidance.
+- **Safety Disclaimer:** Prominently highlights safety notices and emergency helplines.
+- **Session Management:** Built-in chat history and clean chat options.
 
-## Project Purpose
-To explore how AI and NLP can support empathetic conversational experiences.
+---
 
-## Developer
-Ashwini Doddamani
+## 🛠️ Technologies Used
+
+- **Python** (Programming Language)
+- **Streamlit** (Frontend Web Framework)
+- **Hugging Face Transformers** (Emotion Classification Model)
+- **TextBlob** (Sentiment Analysis)
+- **PyTorch** (Deep Learning Backend)
+
+---
+
+## 💻 Installation & Execution (MacBook)
+
+Follow these steps to set up and run the project locally on your Mac:
+
+1. **Open Terminal** and navigate to your desired workspace directory:
+   ```bash
+   cd path/to/your/workspace

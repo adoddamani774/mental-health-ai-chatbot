@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "hi there"],
+      "responses": [
+        "Hello there! I'm here to listen and support you. How are you feeling today?",
+        "Hi! Welcome. How can I support your well-being today?",
+        "Greetings! Feel free to share whatever is on your mind."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": ["i feel anxious", "anxiety", "nervous", "panic", "worried", "overwhelmed"],
+      "responses": [
+        "It sounds like you're carrying a lot of anxiety right now. Let's take a slow, deep breath together. Inhale for 4 seconds, hold for 4, and exhale slowly.",
+        "Feeling anxious can be really overwhelming. Remember that this feeling is temporary and you are safe here.",
+        "Take things one small step at a time. Would you like to try a quick grounding exercise or talk about what's causing your worry?"
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["i am stressed", "stress", "too much work", "burnt out", "pressure"],
+      "responses": [
+        "Stress can take a heavy toll on both body and mind. Have you been able to take a short break today?",
+        "It's completely valid to feel stressed when things pile up. Remember to give yourself permission to pause.",
+        "Let's break down whatever is stressing you into smaller, manageable pieces. What is the most pressing thing on your plate right now?"
+      ]
+    },
+    {
+      "tag": "sadness",
+      "patterns": ["i feel sad", "depression", "unhappy", "crying", "down", "lonely", "blue"],
+      "responses": [
+        "I'm really sorry you're feeling down. Please know your feelings matter, and it's okay not to be okay.",
+        "Sadness can feel heavy and isolating. I'm here with you—would you like to talk about what's making you feel this way, or would you prefer a comforting distraction?",
+        "Be gentle with yourself today. Even small acts of self-care, like drinking a glass of water or wrapping up in a cozy blanket, can help."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["thanks", "thank you", "helpful", "appreciate it", "thank you so much"],
+      "responses": [
+        "You're very welcome! I'm always here for you whenever you need someone to talk to.",
+        "I'm glad I could help. Take good care of yourself!",
+        "You are so welcome. Remember to be kind to yourself today."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "quit", "exit"],
+      "responses": [
+        "Goodbye! Take good care of yourself, and feel free to return whenever you need support.",
+        "Wishing you a peaceful and restful day ahead. Goodbye!",
+        "Take care! Remember that brighter days are ahead."
+      ]
+    }
+  ]
+}
