@@ -32,3 +32,13 @@ Follow these steps to set up and run the project locally on your Mac:
 1. **Open Terminal** and navigate to your desired workspace directory:
    ```bash
    cd path/to/your/workspace
+## 📸 Project Screenshots
+
+### Chatbot Home Page
+![Chatbot Home](chatbot-home.png)
+
+### Chat Conversation
+![Chatbot Chat](chatbot-chat.png)
+
+### Emotion Detection
+![Emotion Detection](emotion-detection.png)
